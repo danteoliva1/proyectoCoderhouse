@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Signika+Negative:wght@400;500&display=swap');
+
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html {
+ font-family: 'Signika Negative', sans-serif;
+ font-weight: 400;
+ background-color: #dfe6ed;
+ font-size: 62.5%;
+}
+
+.header {
+ margin-left: 4rem;
+ margin-bottom: 4rem;
+}
+.header img {
+ width: 20rem;
+ height: 20rem;
+}
+
+a {
+ text-decoration: none;
+ color: black;
+ font-size: 2rem;
+}
+ul {
+ list-style: none;
+}
+
+.mainTitle {
+ font-size: 5.5rem;
+ margin-top: 4rem;
+ text-align: center;
+ font-family: 'League Spartan';
+ font-weight: 700;
+ text-transform: uppercase;
+}
+
+.banner img {
+ width: 110rem;
+ height: 55rem;
+}
+.banner {
+ text-align: center;
+ margin: 4rem 0;
+}
+
+.sectionTitle {
+ font-size: 4rem;
+ text-align: center;
+ color: #1aae9f;
+ text-transform: uppercase;
+}
+section {
+ margin-top: 5rem;
+ margin-bottom: 5rem;
+}
+
+.sectionParrafo {
+ font-size: 2.6rem;
+ text-align: center;
+ padding: 0 12rem;
+}
+form {
+ text-align: center;
+ margin-bottom: 4rem;
+}
+.campo {
+ margin-top: 2rem;
+ font-size: 2rem;
+}
+.campo input {
+ padding: 0.8rem;
+}
+.botonEnviar{
+ font-size: 2rem;
+ padding: 1rem 1.5rem;
+ cursor: pointer;
+}
+
+.fotosGaleria img {
+ max-width: 50rem;
+ max-height: 50rem;
+ padding: .5rem;
+}
+.fotosGaleria  {
+text-align: center;
+}
+
+.footer {
+ color: white;
+ padding:  5rem 0;
+ background-color: rgb(54, 54, 54);
+ text-align: center;
+ max-width: 100%;
+}
+.footer p {
+ font-size: 2.5rem;}
