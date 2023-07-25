@@ -1,0 +1,64 @@
+.footer {
+ width: 100%;
+ padding: 2rem 8%;
+ background-color: $azulOscuro;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ margin-top: auto;
+ font-family: $font-primary;
+
+ .containerSocials {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   margin-bottom: 1rem;
+
+   .iconoSocials {
+    height: 50px;
+    color: $blanco;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid $blanco;
+    align-items: center;
+    font-size: $font-20;
+    justify-content: center;
+    display: flex;
+    margin: 1rem;
+    transition: all ease .3s;
+    text-decoration: none;
+   
+   &:hover {
+    transform: scale(1.15);
+    color: $celeste;
+    border: 1px solid $celeste;
+   }}   
+ }
+ .footerNavigation {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   margin-bottom: 1rem;
+   color: $blanco;
+   font-size: $font-20;
+   border-bottom: 1px solid $blanco;
+   border-top: 1px solid $blanco;
+
+   .menu-item {
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    transition: all ease .3s;
+    text-transform: uppercase;
+
+    &:hover {
+     color: $celeste;
+    }
+   }}
+   .copyright {
+    color: #ffffff;
+    font-size: 20px;
+   }
+}

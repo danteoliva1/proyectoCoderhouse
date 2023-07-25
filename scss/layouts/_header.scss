@@ -1,0 +1,62 @@
+header {
+  height: 130vh;
+  background-image: url(../../img/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  @include min376{
+    height: 85vh;
+  }
+  @include min768{
+    height: 60vh;
+  }
+  .navbar {
+    ul{
+    li{
+      a{
+      font-size: $font-20;
+      font-family: $font-primary;
+      }
+      &:hover{
+      color: $celeste;
+      }
+    }
+    }
+    .navbar-brand {
+    margin-top: 8px;
+    font-size: 40px;
+  }
+  }
+  .headerText {
+    color: $blanco;
+    text-align: center;
+    margin-top: 50px;
+    h2 {
+    font-size: 45px;
+    font-family: $font-secundary;
+    @include min1366{
+      margin-top: 95px;
+    }
+      span {
+      font-size: $font-50;
+      color: $celeste;
+      }}
+    p {
+    font-size: $font-26;
+    margin-top: 45px;
+    font-family: $openSans;
+    @include min1366{
+      margin-top: 65px;
+    }}} 
+}
+
+@media only screen and (min-width: 769px) and (max-width: 880px) {
+ .navbar ul li a {
+   font-size: 15px;
+}}
+@media only screen and (min-width: 881px) and (max-width: 990px) {
+ .navbar ul li a {
+   font-size: 18px;
+}
+}
+ 

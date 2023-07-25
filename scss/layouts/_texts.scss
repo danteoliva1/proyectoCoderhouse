@@ -1,0 +1,47 @@
+
+
+.textos-container {
+ margin: 4rem 0 4rem 0;
+ font-family: $font-primary;
+ @include min1200 {
+  display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(3, 330px);
+   column-gap: 30px;
+ }
+
+ section {
+  margin-top: 3rem;
+  @include min1200 {
+   margin-top: 0;
+  }
+
+  .subtituloSection {
+   font-size: 32px;
+   @include min1200 {
+    font-size: 60px;
+   }
+   @include min768{
+    font-size: 50px;
+   }
+  }
+
+  .sectionParrafo {
+   font-size: 20px;
+   @include min1200 {
+     font-size: 20px;
+   }
+  }
+ }
+ .experiencia {
+  @include min1200 {
+   grid-row: 2/3;
+   grid-column: 2/3;
+  }
+ }
+ .detalleExperiencia {
+  @include min1200 {
+   grid-row: 3/4;
+  }
+ }
+}
