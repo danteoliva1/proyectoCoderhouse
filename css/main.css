@@ -190,10 +190,13 @@ header {
     border-top: 2px solid #ffffff; }
     .footer .footerNavigation .menu-item {
       margin: 1rem 1.5rem;
-      cursor: pointer;
+      cursor: pointer; }
+    .footer .footerNavigation a {
+      text-decoration: none;
+      text-transform: uppercase;
       transition: all ease .3s;
-      text-transform: uppercase; }
-      .footer .footerNavigation .menu-item:hover {
+      color: #ffffff; }
+      .footer .footerNavigation a:hover {
         color: #69a2e4; }
   .footer .copyright {
     color: #ffffff;

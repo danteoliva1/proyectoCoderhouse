@@ -10,7 +10,7 @@
   gap: 10px;
   @include min1024 {
    grid-template-columns: repeat(4, 1fr);
-   width: 80%;
+   width: 80%; 
    margin: 0 auto;
   }
 

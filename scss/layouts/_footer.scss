@@ -46,13 +46,16 @@
    .menu-item {
     margin: 1rem 1.5rem;
     cursor: pointer;
-    transition: all ease .3s;
-    text-transform: uppercase;
-
+   }
+    a {
+     text-decoration: none;
+     text-transform: uppercase;
+     transition: all ease .3s;
+     color: $blanco;
+    
     &:hover {
      color: $celeste;
-    }
-   }}
+    }}}
    .copyright {
     color: $blanco;
     font-size: $font-20;
