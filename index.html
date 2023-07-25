@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans:400,700" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrapReducido.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
@@ -58,21 +59,21 @@
 
   <main>
       <div class="textos-container container">
-          <section class="nosotros" id="nosotros">
+          <section class="nosotros" id="nosotros" data-aos="fade-right">
               <div class="container text-center">
                     <h2 class="subtituloSection fw-bold text-uppercase text-center">Sobre nosotros</h2>
                     <p class="sectionParrafo">Somos <span class="fw-bold">Cabalgatas El Andino</span>, una agencia de turismo que busca desarrollar experiencias únicas e inolvidables. Descubrí Mendoza como nunca antes con sus impresionantes valles y vistas nocturnas. Encargate de <span class="fw-bold">disfrutar</span>, de lo demás nos encargamos nosotros. Estamos comprometidos con la sostenibilidad y la <span class="fw-bold">preservación del entorno natural</span> Valoramos y respetamos la belleza del Valle de los Molles y trabajamos día a día para promover el turismo sustentable y responsable.</p>
               </div>
           </section>
 
-          <section class="experiencia" id="experiencia">
+          <section class="experiencia" id="experiencia" data-aos="fade-left">
               <div class="container text-center">
                     <h2 class="subtituloSection fw-bold text-uppercase text-center">La experiencia</h2>
                     <p class="sectionParrafo">Vamos a vivir <span class="fw-bold">5 días de una experiencia distinta</span>, montando a caballo, <span class="fw-bold">disfrutando de la naturaleza del Valle de los Molles</span>, ubicado a 50 kilómetros de la ciudad de Malargüe, por la ruta 222. <span class="fw-bold">Las montañas, el cielo, caballos y la cultura regional</span>, una combinación perfecta para disfrutar de uno de los valles más genuinos que tiene Malargüe. Nos acompañarán guías de montaña y baqueanos de la zona, te ofreceremos la calma del valle y noches estrelladas, una alternativa para <span class="fw-bold">relajarse y contemplar la naturaleza</span>. Para mas informacion completa el formulario de contacto.</p>
               </div>
           </section>
 
-          <section class="detalleExperiencia" id="detalleExperiencia">
+          <section class="detalleExperiencia" id="detalleExperiencia" data-aos="fade-right">
               <div class="container text-center">
                     <h2 class="subtituloSection fw-bold text-uppercase text-center">¿Qué incluye?</h2>
                     <p class="sectionParrafo">La excursion incluye <span class="fw-bold">pension completa (comida y bebida)</span>, todo el equipamiento necesario para acampar y cabalgar, pack de fotos por fotografo profesional,<span class="fw-bold"> dos noches en cabaña</span> con agua caliente, cocina equipada, etc. Tambien tenemos <span class="fw-bold"> opciones en otros lenguajes para que nuestros clientes extranjeros disfruten </span>de las charlas de los guías.</p>
@@ -84,23 +85,23 @@
 
           <h2 class="subtituloSection fw-bold text-uppercase text-center">Galeria de fotos</h2>
           <div class="grid-container">
-              <div class="grid-item">
+              <div class="grid-item"data-aos="fade-left">
                 <img src="img/foto1.jpg" alt="" class="gallery__img">
               </div>
 
-              <div class="grid-item">
+              <div class="grid-item"data-aos="fade-right">
                 <img src="img/foto2.jpg" alt="" class="gallery__img">
               </div>
 
-              <div class="grid-item">
+              <div class="grid-item"data-aos="fade-left">
                 <img src="img/foto3.jpg" alt="" class="gallery__img">
               </div>
 
-              <div class="grid-item">
+              <div class="grid-item"data-aos="fade-right">
                 <img src="img/foto4.jpg" alt="" class="gallery__img">
               </div>
 
-              <div class="grid-item">
+              <div class="grid-item"data-aos="fade-left">
                 <img src="img/foto5.jpg" alt="" class="gallery__img">
               </div>
           </div>
@@ -111,7 +112,7 @@
 
           <h2 class="subtituloSection fw-bold text-uppercase text-center">Contacto</h2>
           <div class="d-flex justify-content-center align-items-center">
-              <div class="formContainer card shadow col-xs-12 col-sm-6 col-md-6 col-lg-4  p-4 bg-primary"> 
+              <div class="formContainer card shadow col-xs-12 col-sm-6 col-md-6 col-lg-4  p-4 bg-primary" data-aos="zoom-out-up"> 
                   <div class="mb-4 d-flex justify-content-start align-items-center">
                       <h4 class="text-white">Contactese con nosotros</h4>
                   </div>
@@ -172,6 +173,10 @@
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/popper.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
 </html>
