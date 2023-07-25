@@ -1,13 +1,9 @@
-* {
+*, *:before, *:after {
   margin: 0;
   padding: 0;
   text-decoration: none;
   list-style: none;
   box-sizing: inherit; }
-  *:before {
-    box-sizing: inherit; }
-  *::after {
-    box-sizing: inherit; }
 
 html {
   box-sizing: border-box;
@@ -81,14 +77,6 @@ header {
     @media only screen and (min-width: 1200px) {
       .textos-container section {
         margin-top: 0; } }
-    .textos-container section .subtituloSection {
-      font-size: 32px; }
-      @media only screen and (min-width: 1200px) {
-        .textos-container section .subtituloSection {
-          font-size: 60px; } }
-      @media only screen and (min-width: 768px) {
-        .textos-container section .subtituloSection {
-          font-size: 50px; } }
     .textos-container section .sectionParrafo {
       font-size: 20px; }
       @media only screen and (min-width: 1200px) {
@@ -159,7 +147,8 @@ header {
 
 .formContainer {
   width: 90%;
-  margin: 20px; }
+  margin: 20px;
+  font-family: "Signika Negative", sans-serif; }
 
 .footer {
   width: 100%;
@@ -171,13 +160,13 @@ header {
   flex-direction: column;
   margin-top: auto;
   font-family: "Anek Malayalam", sans-serif; }
-  .footer .containerSocials {
+  .footer .containerSocials, .footer .footerNavigation {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 1rem; }
-    .footer .containerSocials .iconoSocials {
+    .footer .containerSocials .iconoSocials, .footer .footerNavigation .iconoSocials {
       height: 50px;
       color: #ffffff;
       width: 50px;
@@ -190,20 +179,15 @@ header {
       margin: 1rem;
       transition: all ease .3s;
       text-decoration: none; }
-      .footer .containerSocials .iconoSocials:hover {
+      .footer .containerSocials .iconoSocials:hover, .footer .footerNavigation .iconoSocials:hover {
         transform: scale(1.15);
         color: #69a2e4;
         border: 1px solid #69a2e4; }
   .footer .footerNavigation {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 1rem;
     color: #ffffff;
     font-size: 20px;
-    border-bottom: 1px solid #ffffff;
-    border-top: 1px solid #ffffff; }
+    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #ffffff; }
     .footer .footerNavigation .menu-item {
       margin: 1rem 1.5rem;
       cursor: pointer;

@@ -67,10 +67,11 @@
    font-size: 60px;
   }
   @include min768{
-   font-size: 50px;
+   font-size: $font-50;
   }
  }
 .formContainer {
   width: 90%;
   margin: 20px;
+  font-family: $font-secundary;
 }

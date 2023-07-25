@@ -16,20 +16,10 @@
    margin-top: 0;
   }
 
-  .subtituloSection {
-   font-size: 32px;
-   @include min1200 {
-    font-size: 60px;
-   }
-   @include min768{
-    font-size: 50px;
-   }
-  }
-
   .sectionParrafo {
-   font-size: 20px;
+   font-size: $font-20;
    @include min1200 {
-     font-size: 20px;
+     font-size: $font-20;
    }
   }
  }

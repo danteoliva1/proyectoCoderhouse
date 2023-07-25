@@ -1,14 +1,14 @@
 header {
-  height: 130vh;
+  height: map-get($viewports , 130 );
   background-image: url(../../img/banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   @include min376{
-    height: 85vh;
+    height: map-get($viewports , 85 );
   }
   @include min768{
-    height: 60vh;
+    height: map-get($viewports , 60 );
   }
   .navbar {
     ul{

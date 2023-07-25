@@ -21,7 +21,7 @@
     color: $blanco;
     width: 50px;
     border-radius: 50px;
-    border: 1px solid $blanco;
+    border: map-get($borders , smallBlanco );
     align-items: center;
     font-size: $font-20;
     justify-content: center;
@@ -33,19 +33,15 @@
    &:hover {
     transform: scale(1.15);
     color: $celeste;
-    border: 1px solid $celeste;
+    border: map-get($borders , smallCeleste );
    }}   
  }
  .footerNavigation {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-wrap: wrap;
-   margin-bottom: 1rem;
+   @extend .containerSocials;
    color: $blanco;
    font-size: $font-20;
-   border-bottom: 1px solid $blanco;
-   border-top: 1px solid $blanco;
+   border-bottom: map-get($borders , mediumBlanco );
+   border-top: map-get($borders , mediumBlanco );
 
    .menu-item {
     margin: 1rem 1.5rem;
@@ -58,7 +54,7 @@
     }
    }}
    .copyright {
-    color: #ffffff;
-    font-size: 20px;
+    color: $blanco;
+    font-size: $font-20;
    }
 }
