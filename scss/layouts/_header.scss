@@ -10,7 +10,7 @@ header {
   @include min768{
     height: map-get($viewports , 85 );
   }
-  @include min1200{
+  @include min1366{
     height: map-get($viewports , 60 );
   }
   .navbar {
@@ -38,7 +38,7 @@ header {
     color: $blanco;
     text-align: center;
     margin-top: 50px;
-    h2 {
+    h3 {
     font-size: 45px;
     font-family: $font-secundary;
     @include min1366{

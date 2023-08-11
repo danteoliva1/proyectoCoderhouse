@@ -7,11 +7,11 @@
  @include min768 {
   padding: 20px 0 10px 0;
  }
- @include min1200 {
+ @include min1366 {
   padding: 70px 10px 50px 10px;
  }
   .servicesTitle {
-   color: white;
+   color: $blanco;
    font-family: $font-alternative;
    font-weight: 700;
    font-size: 38px;
@@ -20,7 +20,7 @@
    @include min768{
     font-size: 32px;
    }
-   @include min1200{
+   @include min1366{
     font-size: 42px;
    }}
   .card {
@@ -30,7 +30,7 @@
      margin: 0 15px;
      padding: 10px 0;
      text-align: center;
-     color: #fff;
+     color: $blanco;
      transition: 0.3s ease-in-out;
      height: 100%; 
      i {
@@ -40,7 +40,7 @@
      }
      p{
        font-size: 16px;
-       color: #fff;
+       color: $blanco;
      }
      .card-body{
        flex: 1 1 auto;
@@ -52,7 +52,7 @@
           @include min768{
            font-size: 23px;
           }
-          @include min1200{
+          @include min1366{
            font-size: 30px;
           }
          }
@@ -61,7 +61,7 @@
          @include min768{
           font-size: 16px;
          }
-         @include min1200{
+         @include min1366{
           font-size: 21px;
          }
          &:last-child {
