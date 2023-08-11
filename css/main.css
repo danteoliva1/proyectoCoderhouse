@@ -25,15 +25,23 @@ header {
       height: 85vh; } }
   @media only screen and (min-width: 768px) {
     header {
+      height: 85vh; } }
+  @media only screen and (min-width: 1200px) {
+    header {
       height: 60vh; } }
   header .navbar ul li a {
     font-size: 20px;
-    font-family: "Anek Malayalam", sans-serif; }
-  header .navbar ul li:hover {
-    color: #69a2e4; }
+    font-family: "Anek Malayalam", sans-serif;
+    color: #000000; }
+    header .navbar ul li a:hover {
+      color: #69a2e4; }
   header .navbar .navbar-brand {
     margin-top: 8px;
     font-size: 40px; }
+    header .navbar .navbar-brand .navbarTitle {
+      color: black;
+      font-weight: 700;
+      font-family: "Montserrat", sans-serif; }
   header .headerText {
     color: #ffffff;
     text-align: center;
@@ -89,6 +97,71 @@ header {
   @media only screen and (min-width: 1200px) {
     .textos-container .detalleExperiencia {
       grid-row: 3/4; } }
+
+.servicesContainer {
+  padding: 70px 0 50px 0;
+  background-color: #2a7ba0;
+  align-items: center;
+  display: flex; }
+  @media only screen and (min-width: 768px) {
+    .servicesContainer {
+      padding: 20px 0 10px 0; } }
+  @media only screen and (min-width: 1200px) {
+    .servicesContainer {
+      padding: 70px 10px 50px 10px; } }
+  .servicesContainer .servicesTitle {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    text-transform: uppercase;
+    margin-bottom: 25px; }
+    @media only screen and (min-width: 768px) {
+      .servicesContainer .servicesTitle {
+        font-size: 32px; } }
+    @media only screen and (min-width: 1200px) {
+      .servicesContainer .servicesTitle {
+        font-size: 42px; } }
+  .servicesContainer .card {
+    background: #2a7ba0;
+    border-color: #2a7ba0;
+    border-radius: 10px;
+    margin: 0 15px;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    height: 100%; }
+    .servicesContainer .card i {
+      font-size: 48px;
+      padding-top: 15px;
+      color: #e6bd45; }
+    .servicesContainer .card p {
+      font-size: 16px;
+      color: #fff; }
+    .servicesContainer .card .card-body {
+      flex: 1 1 auto; }
+      .servicesContainer .card .card-body .card-title {
+        margin-bottom: 0.75rem;
+        font-size: 28px;
+        font-weight: 700;
+        font-family: "Montserrat", sans-serif; }
+        @media only screen and (min-width: 768px) {
+          .servicesContainer .card .card-body .card-title {
+            font-size: 23px; } }
+        @media only screen and (min-width: 1200px) {
+          .servicesContainer .card .card-body .card-title {
+            font-size: 30px; } }
+      .servicesContainer .card .card-body .card-text {
+        font-size: 19px; }
+        @media only screen and (min-width: 768px) {
+          .servicesContainer .card .card-body .card-text {
+            font-size: 16px; } }
+        @media only screen and (min-width: 1200px) {
+          .servicesContainer .card .card-body .card-text {
+            font-size: 21px; } }
+        .servicesContainer .card .card-body .card-text:last-child {
+          margin-bottom: 0; }
 
 .galeria h2 {
   margin: 75px 0 15px 0;

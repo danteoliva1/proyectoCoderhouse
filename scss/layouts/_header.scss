@@ -8,6 +8,9 @@ header {
     height: map-get($viewports , 85 );
   }
   @include min768{
+    height: map-get($viewports , 85 );
+  }
+  @include min1200{
     height: map-get($viewports , 60 );
   }
   .navbar {
@@ -16,17 +19,21 @@ header {
       a{
       font-size: $font-20;
       font-family: $font-primary;
-      }
-      &:hover{
-      color: $celeste;
-      }
+      color: #000000;
+        &:hover{
+        color: $celeste;
+        }}
     }
     }
     .navbar-brand {
     margin-top: 8px;
     font-size: 40px;
-  }
-  }
+      .navbarTitle {
+        color: black;
+        font-weight: 700;
+        font-family: $font-alternative;
+      }
+  }}
   .headerText {
     color: $blanco;
     text-align: center;

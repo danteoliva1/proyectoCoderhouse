@@ -5,12 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@500;700&family=Montserrat:wght@300;400;500;700&family=Open+Sans:wght@400;700&family=Signika+Negative:wght@300;400;600&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrapReducido.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
@@ -20,7 +18,7 @@
 <body>
 
   <header class="bg-primary">
-    <nav class="navbar navbar-expand-md navbar-dark bg-primary" id="navbar">
+    <nav class="navbar navbar-expand-md navbar-light bg-primary" id="navbar">
         <div class="container-fluid ">
               <a class="navbar-brand" href="#">
                   <h1 class="navbarTitle">Cabalgatas <span class="color-n">El Andino</span></h1>
@@ -59,7 +57,7 @@
 
   <main>
       <div class="textos-container container">
-          <section class="nosotros" id="nosotros" data-aos="fade-right">
+          <section class="nosotros" id="nosotros">
               <div class="container text-center">
                     <h2 class="subtituloSection fw-bold text-uppercase text-center">Sobre nosotros</h2>
                     <p class="sectionParrafo">Somos <span class="fw-bold">Cabalgatas El Andino</span>, una agencia de turismo que busca desarrollar experiencias únicas e inolvidables. Descubrí Mendoza como nunca antes con sus impresionantes valles y vistas nocturnas. Encargate de <span class="fw-bold">disfrutar</span>, de lo demás nos encargamos nosotros. Estamos comprometidos con la sostenibilidad y la <span class="fw-bold">preservación del entorno natural</span> Valoramos y respetamos la belleza del Valle de los Molles y trabajamos día a día para promover el turismo sustentable y responsable.</p>
@@ -80,6 +78,43 @@
               </div>
           </section>
       </div>
+      
+      <section id="servicios">
+          <div class="servicesContainer">
+            <div class="container">
+               <h4 class="text-center servicesTitle">¿Por qué elegirnos?</h4>
+               <div class="row row-eq-height justify-content-center">
+                    <div class="col-lg-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="fa-solid fa-wallet"></i>
+                                <h6 class="card-title">Cuidamos tu billetera</h6>
+                                <p class="card-text">Te ofrecemos el mejor precio para que disfrutes la experiencia a un precio accesible para vos y toda tu familia Consultanos para más información.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="fa-solid fa-kit-medical"></i>
+                                <h6 class="card-title">Cuidamos tu salud</h6>
+                                <p class="card-text">Contamos con seguros contra todo riesgo, además de ofrecer un médico que va a venir con nosotros en la excursion para que estes seguro.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="fa-solid fa-child-reaching"></i>
+                                <h6 class="card-title">Cuidamos a tu familia</h6>
+                                <p class="card-text">Nuestra excursion esta pensada para que puedas venir con niños, contamos con un personal preparado para todo lo que necesites.</p>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+            </div>
+          </div>
+      </section>
       
       <section class="galeria" id="galeria">
 
@@ -104,15 +139,13 @@
               <div class="grid-item"data-aos="fade-left">
                 <img src="img/foto5.jpg" alt="" class="gallery__img">
               </div>
-          </div>
-
+            </div>
       </section>
 
       <section class="formulario" id="formulario"> 
-
           <h2 class="subtituloSection fw-bold text-uppercase text-center">Contacto</h2>
           <div class="d-flex justify-content-center align-items-center">
-              <div class="formContainer card shadow col-xs-12 col-sm-6 col-md-6 col-lg-4  p-4 bg-primary" data-aos="zoom-out-up"> 
+              <div class="formContainer card shadow col-xs-12 col-sm-6 col-md-6 col-lg-4  p-4 bg-secundary" data-aos="zoom-out-up"> 
                   <div class="mb-4 d-flex justify-content-start align-items-center">
                       <h4 class="text-white">Contactese con nosotros</h4>
                   </div>
@@ -144,14 +177,14 @@
                           
                           <div class="mb-2">
                               <button id ="botton" class="col-12 btn btn-primary d-flex justify-content-between">
-                                  <span>Enviar </span><i id="icono" class="bi bi-cursor-fill "></i>
+                                  <span>Enviar </span>
                               </button>
                           </div>         
                       </form>
                   </div>
               </div>
           </div>
-    </main>
+  </main>
 
 
 
@@ -174,9 +207,6 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-      </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
 </html>

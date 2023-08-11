@@ -783,6 +783,9 @@ button:not(:disabled),
 /* rtl:end:remove */
 
 .bg-primary {
+  background-color: white !important;
+}
+.bg-secundary {
   background-color: #132235 !important;
 }
 
